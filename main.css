@@ -1,0 +1,241 @@
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: hsl(235, 18%, 26%);
+}
+.conteiner{
+    /* background-color: hsl(235, 18%, 26%); */
+    margin: auto;
+    padding: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    /* min-height: 500px; */
+    /* max-width: 1440px; */
+    
+}
+
+.card {
+    position: relative;
+    padding: 15px 90px;
+    border-radius: 7%  0 0 7%;
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pict{
+    text-align: end;
+    /* height: 100%; */
+    justify-content: center;
+    width: 40%;
+    padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 7% 7% 0;
+}
+
+.title{
+    /* padding-top: 20px; */
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: bold;
+    /* text-align: center; */
+    font-size: 1.8em;
+    color: hsl(235, 18%, 26%) ;
+    padding-top: 40px;
+    margin-bottom: -19px;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 16px;
+    color: hsl(231, 7%, 60%);
+    font-weight: bold;
+    
+}
+.list-card {
+    padding: 10px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 8px 0;
+    padding-left: 25px;
+    font-weight: bold;
+    color: hsl(231, 7%, 60%);
+}
+.list::before {
+    content: "";
+    position: absolute;  
+    /* top: 0; */
+     left: 90px; 
+
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    /* background-position: 0 0; */
+    background-image: url("./assets/images/icon-list.svg");
+    background-size: cover;
+}
+
+label{
+    /* margin-top: 30px; */
+    color: hsl(234, 29%, 20%) ;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input{
+    margin-top: 10px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 8px  ;
+    padding-left: 20px;
+    color: hsl(234, 29%, 20%) ;
+    
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+}
+
+
+.button {
+    margin-top: 23px;
+    height: 57px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 80%);
+    border-radius: 8px ;
+    font-weight: bold;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+.attribution {
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 18%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.title-success{
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 15px;
+}
+
+.text-success{
+    font-size: 11px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: hsl(231, 7%, 60%);
+}
+
+.btn-success{
+    background-color: hsl(234, 29%, 20% );
+    color: white;
+    border-radius: 7px;
+    height: 45px;
+}
+
+.btn-success:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+}
+
+.bold-email{
+    color: hsl(235, 18%, 26%);
+}
+
+@media (max-width: 400px) {
+    
+    body{
+        margin: 0px;
+
+    }
+
+    .conteiner{
+        position: relative;
+        flex-direction: column-reverse;
+        padding: 0;
+
+    }
+    .pict{
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+
+    }
+    .card { 
+        box-sizing: border-box;
+        width: 100%;
+        left: 0;
+        border-radius: 0;
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .title {
+        font-size: 20px;
+        padding: 0;
+        margin-top: 0;
+    }
+    .list:before {
+        left: 20px;
+
+    }
+    .text  {
+        margin-top: 15px;
+    }
+
+    .attribution {
+        display: none;
+    }
+    .button {
+        margin-bottom: 20px;
+    }
+    .success {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+        padding: 20px;
+        position: relative;
+    }
+    .title-success {
+        justify-self: center;
+    }
+    .success img {
+        margin-top: 100px;
+    }
+    .success h2 {
+        font-size: 32px;
+    }
+    .text-success {
+        font-size: 16px;
+    }
+    .btn-success {
+        margin-top: 40vh;
+
+    }
+
+}

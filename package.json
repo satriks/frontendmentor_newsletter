@@ -1,0 +1,15 @@
+{
+  "name": "newsletter2",
+  "version": "1.0.0",
+  "description": "Fow window 1440 px and 375 px. ![Design preview for the Newsletter sign-up form with success message coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
