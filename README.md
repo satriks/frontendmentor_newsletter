@@ -53,7 +53,7 @@ Users should be able to:
 ## Author
 
 - Github - [Github](https://github.com/satriks)
-- Frontend Mentor - [@satriks](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@satriks](https://www.frontendmentor.io/profile/satriks)
 - Telegram - [@satriks](https://t.me/Satriks)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
